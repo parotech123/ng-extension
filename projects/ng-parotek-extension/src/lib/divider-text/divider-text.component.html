@@ -1,0 +1,12 @@
+<div class="container">
+	<ng-container *ngIf="alignCenter==true">
+		<div class="line">
+			<mat-divider></mat-divider>
+		</div>
+	</ng-container>
+	<div class="text " [style.fontSize.px]="size">{{text}}</div>
+	<ng-content select='[center]'></ng-content>
+	<div class="line">
+		<mat-divider></mat-divider>
+	</div>
+</div>
