@@ -4,7 +4,7 @@
 			<mat-divider></mat-divider>
 		</div>
 	</ng-container>
-	<div class="text " [style.fontSize.px]="size">{{text}}</div>
+	<div class="text " [style.fontSize.px]="size" *ngIf="text !=''">{{text}}</div>
 	<ng-content select='[center]'></ng-content>
 	<div class="line">
 		<mat-divider></mat-divider>

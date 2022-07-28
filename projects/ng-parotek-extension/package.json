@@ -1,4 +1,18 @@
 {
-  "name": "ng-parotek-extension",
-  "version": "0.0.1"
+  "name": "@parotek/ng-extension",
+  "version": "1.0.3",
+  "peerDependencies": {
+   
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0",
+    "@angular/common": ">=14.0.0",
+    "@angular/core": ">=14.0.0",
+    "@angular/material": ">=14.0.0"
+  }
+  
+  
 }
